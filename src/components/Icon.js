@@ -4,13 +4,10 @@ const Icon = ({ name }) => {
   switch (name) {
     case "circle":
       return <FaRegCircle className="icon" />;
-      break;
-    case "circle":
-      return <FaCross className="icon" />;
-      break;
+    case "cross":
+      return <FaTimes className="icon" />;
     default:
       return <FaPen className="icon" />;
-      break;
   }
 };
 export default Icon;
